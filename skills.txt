@@ -1,0 +1,2 @@
+Basics knowledge on Web development.
+Handle knowledges like C,C++.

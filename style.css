@@ -1,0 +1,90 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url('1.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; /* 80% of the screen width */
+    max-width: 900px; /* Max width of 900px */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    text-align: left; /* Align the content to the left within the container */
+    color: black;
+    font-size: 24px;
+  }
+
+  .container1 {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    margin: 20px auto;
+    width: 200%; /* 80% of the screen width */
+    max-width: 900px; /* Max width of 900px */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    text-align: center; /* Align the content to the left within the container */
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+  }
+  .container2 {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    margin: 20px auto;
+    width: 200%; /* 80% of the screen width */
+    max-width: 900px; /* Max width of 900px */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    text-align: center; /* Align the content to the left within the container */
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+  }
+  h1{
+    color: #ffffff;
+  }
+  
+  h2 {
+    color: #000000;
+  }
+
+  h3{
+    color: #ffffff;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  ul {
+    list-style-position: inside;
+    padding: 0;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+  
+    nav a {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  

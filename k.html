@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 5px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 0;
+      display: block;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #3d3d3d;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero img.hero-bg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: auto;
+      opacity: 0.2;
+      z-index: 0;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero h2 {
+      font-size: 2em;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1em;
+      max-width: 600px;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .about-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 60px 20px;
+      background-color: white;
+    }
+
+    .about-section img {
+      max-width: 300px;
+      border-radius: 10px;
+    }
+
+    .about-text {
+      max-width: 600px;
+    }
+
+    .about-text h3 {
+      margin-bottom: 10px;
+      font-size: 1.5em;
+    }
+
+    .about-text p {
+      margin-bottom: 15px;
+      font-size: 0.95em;
+      color: #333;
+    }
+
+    .about-text button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <!--<p>Just another My Blog site</p>-->
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT ME</a></li>
+      <!--<li><a href="#">SERVICES</a></li>-->
+      <li><a href="#">SKILL</a></li>
+      <!--<li><a href="#">TESTIMONIAL</a></li>
+      <li><a href="#">EXPERIENCE</a></li>
+      <li><a href="#">WORKS</a></li>
+      <li><a href="#">BLOG</a></li>-->
+      <li><a href="#">CONTACT US</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <img class="hero-bg" src="1.jpg" alt="Background" />
+    <div class="hero-content">
+      <h2>ALEXANDER SCOTTISH</h2>
+      <p>Hi, I am a Professional Developer and ICT Degree holder. I have five years experience in IT Sector as an ICT Lecturer, I'd like...</p>
+      <button>Hire Me</button>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <img src="https://i.ibb.co/2j0hzLx/profile.png" alt="Alexander Scottish">
+    <div class="about-text">
+      <h3>ABOUT ME</h3>
+      <p>I Am Developer blends expertise with industry know-how to guide your next property development.</p>
+      <p>Software Developers use software development languages and tools to write, edit, maintain, and test computer software. Software Developers follow the software development lifecycle (SDLC) to plan, design, build, test, and deploy software applications, ranging from websites and mobile applications to web applications and video games. In addition to creating new software, Software Developers improve and maintain the working order of existing software.</p>
+      <button>DOWNLOAD RESUME</button>
+    </div>
+  </section>
+</body>
+</html>
